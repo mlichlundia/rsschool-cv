@@ -1,26 +1,28 @@
 # Ksenia Sychova
 
----
-
 ## Contacts
 
 **LinkedIn:** <https://www.linkedin.com/in/kseniasychova/>
+
 **GiitHub:** <https://github.com/mlichlundia>
+
 **Email:** <mlichlundiapl@gmail.com>
+
 **Phone:** +48571380901
 
 ## Summary
 
 I started to learn frontend development with my mentor. I think such way of learning helps me to understand more about working in company. Our mentoring program increases my knowledge with the most important and modern Frontend technologies. And **just six months later** I had my first commercial project.
 
-I am looking for professionals who will teach me how to create large-scale applications and give me experience in a teamwork.
+I am looking for a company that will give me friendly enviroment in which i will increase my knowledge in creating large-scale applications.
 
 ## Skills
 
 - JavaScript (functional, object-oriented programming, fundamentals, async JS, DOM, Rest API)
+- React (+React Hooks)
+- Redux
 - HTML
 - CSS
-- React (+React Hooks)
 - Libraries: axios, reactRouter, immer, react-beautiful-dnd, react-hook-form
 - VCS: Git (GitHub)
 - npm
@@ -87,5 +89,5 @@ Belarusian State University of Informatics and Radioelectronics
 
 ## Language
 
-- English: B1 (intermediate), I was learning it at school, 2 years at the university, and now I learn it on my own
+- English: B1 (intermediate), I was learning it at school, for 2 years at the university, and now I learn it on my own
 - Russian: native
