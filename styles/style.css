@@ -6,7 +6,7 @@ html {
 	--light-100: #ffffff;
 	--gray-100: #b8a8ab;
 	--pink-100: #fbd4db;
-	--dark-800: #474445;
+	--dark-800: #75666a;
 	--dark-900: #1d1c1c;
 
 	scroll-behavior: smooth;
@@ -63,6 +63,11 @@ header {
 	position: absolute;
 	top: 0.5rem;
 	left: 0.875rem;
+	color: var(--gray-100);
+}
+
+header > :first-child {
+	color: var(--dark-800);
 }
 
 aside {

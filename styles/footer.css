@@ -23,7 +23,7 @@ footer p {
 	text-align: center;
 	font-size: 0.6rem;
 	text-transform: uppercase;
-	color: var(--gray-100);
+	color: var(--dark-800);
 }
 
 @media screen and (min-width: 992px) {
