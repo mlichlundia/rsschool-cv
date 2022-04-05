@@ -151,6 +151,7 @@ body::-webkit-scrollbar-corner {
 
 	body {
 		padding: 0 15.25rem;
+		overflow: hidden;
 	}
 
 	header {
@@ -198,7 +199,7 @@ body::-webkit-scrollbar-corner {
 	}
 
 	body {
-		padding: 1.5rem 19rem;
+		padding: 0 19rem;
 	}
 }
 @media screen and (min-width: 1440px) {
@@ -207,6 +208,6 @@ body::-webkit-scrollbar-corner {
 	}
 
 	body {
-		padding: 1.5rem 28rem;
+		padding: 0 28rem;
 	}
 }
