@@ -71,7 +71,7 @@ aside {
 
 main {
 	font-family: "Poppins", "Arial", Arial, sans-serif;
-	margin: 3rem 0 0;
+	margin: 6rem 0 0;
 }
 
 section {
@@ -80,7 +80,7 @@ section {
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	margin: 0 0 3rem;
+	margin: 0 0 4rem;
 }
 
 footer {
@@ -140,11 +140,11 @@ body::-webkit-scrollbar-corner {
 	}
 
 	body {
-		padding: 1.5rem 15.25rem;
+		padding: 0 15.25rem;
 	}
 
 	header {
-		position: absolute;
+		position: fixed;
 		top: 1.5rem;
 		left: 3rem;
 	}
@@ -154,6 +154,7 @@ body::-webkit-scrollbar-corner {
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
+		margin: 0;
 	}
 
 	aside {
@@ -178,6 +179,7 @@ body::-webkit-scrollbar-corner {
 
 	section {
 		height: 100vh;
+		margin: 0;
 	}
 }
 @media screen and (min-width: 1200px) {
@@ -195,6 +197,6 @@ body::-webkit-scrollbar-corner {
 	}
 
 	body {
-		padding: 1.5rem 21.25rem;
+		padding: 1.5rem 28rem;
 	}
 }
