@@ -1,0 +1,38 @@
+footer {
+	background: rgba(0, 0, 0, 0.2);
+	padding: 0.5rem 0.75rem;
+}
+
+footer a {
+	height: 100%;
+	width: 4rem;
+	display: flex;
+	align-items: center;
+}
+
+footer:nth-child(2n) {
+	flex-grow: 1;
+}
+
+footer > :last-child svg {
+	width: 3rem;
+	height: auto;
+}
+
+footer p {
+	text-align: center;
+	font-size: 0.6rem;
+	text-transform: uppercase;
+	color: var(--gray-100);
+}
+
+@media screen and (min-width: 992px) {
+	footer {
+		padding: 1rem 3rem;
+	}
+
+	footer > :last-child svg {
+		width: 4rem;
+		height: auto;
+	}
+}
