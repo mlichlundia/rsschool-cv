@@ -133,6 +133,10 @@ body::-webkit-scrollbar-corner {
 	html {
 		font-size: 2.0833333333333333333vw;
 	}
+
+	section {
+		margin: 8rem 0;
+	}
 }
 @media screen and (min-width: 992px) {
 	html {
