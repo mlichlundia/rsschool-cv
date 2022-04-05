@@ -1,0 +1,8 @@
+.other div {
+	margin: 0 0 1.5rem;
+}
+
+.other p {
+	margin: 0.5rem 0 0;
+	color: var(--gray-100);
+}
