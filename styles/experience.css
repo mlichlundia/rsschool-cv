@@ -1,0 +1,13 @@
+.experience a {
+	margin: 0 0 1rem;
+	transition: 0.5s;
+}
+
+.experience span {
+	margin: 0 0 0 0.5rem;
+}
+
+.experience a:hover {
+	transform: translate(0.75rem);
+	text-shadow: 0 0 0.5rem var(--pink-100);
+}
