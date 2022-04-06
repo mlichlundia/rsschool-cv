@@ -6,6 +6,7 @@
   <link rel="stylesheet" type="text/css" href="./styles/menu.css" />
   <link rel="stylesheet" type="text/css" href="./styles/summary.css" />
   <link rel="stylesheet" type="text/css" href="./styles/skills.css" />
+  <link rel="stylesheet" type="text/css" href="./styles/code.css" />
   <link rel="stylesheet" type="text/css" href="./styles/experience.css" />
   <link rel="stylesheet" type="text/css" href="./styles/other.css" />
   <link rel="stylesheet" type="text/css" href="./styles/footer.css" />
@@ -93,8 +94,10 @@
     </section>
     <section class="section code-example" id="code">
       <picture>
-        <source srcset="./assets/code-example.webp" type="image/webp" />
-        <source srcset="./assets/code-example.png" type="image/png" />
+        <source media="(max-width: 992px)" srcSet='./assets/code-example.webp' type="image/webp" />
+        <source media="(max-width: 992px)" srcSet='./assets/code-example.png' type="image/png" />
+        <source srcset="./assets/code-example-pc.webp" type="image/webp" />
+        <source srcset="./assets/code-example-pc.png" type="image/png" />
         <img width="762" height="455" src="./assets/code-example.png" alt="code-example" />
       </picture>
     </section>
