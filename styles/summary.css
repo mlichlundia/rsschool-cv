@@ -1,3 +1,7 @@
+.summary {
+	margin-top: 0 ;
+}
+
 .summary img,
 .summary div {
 	border-radius: 50%;
@@ -11,6 +15,7 @@
 
 .summary h1 {
 	color: var(--pink-100);
+	margin: 0 0 .5rem;
 }
 
 .summary p {

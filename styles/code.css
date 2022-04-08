@@ -1,7 +1,53 @@
 .code-example h2 {
-	margin: 0 0 0.5rem;
+	margin: 0 0 1rem;
 }
 
 .code-example img {
 	box-shadow: 0 2rem 4rem rgb(24, 23, 23);
+}
+
+.code-example pre {
+	font-size: .75rem;
+	text-align: start;
+	margin: 0;
+	white-space: pre-line;
+}
+
+.code-example__bg {
+	width: 100vw;
+	background-color: var(--dark-900);
+	box-shadow: 0 2rem 4rem rgb(24, 23, 23);
+	padding: .5rem .75rem;
+	border-radius: .5rem;
+}
+
+.key-word {
+	color: #bb7f8f
+}
+
+.variable {
+	color: var(--pink-100);
+}
+
+.defenition {
+	color: var(--gray-100);
+}
+
+.number {
+	color: #ec96ac;
+}
+
+.string {
+	color: var(--dark-800)
+}
+
+@media screen and (min-width: 600px) {
+	.code-example pre {
+		font-size: 1rem;
+	}
+	
+	.code-example__bg {
+		width: fit-content;
+		padding: 1rem 2rem;
+	}	
 }

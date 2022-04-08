@@ -1,6 +1,12 @@
-.experience a {
+.experience h2 {
 	margin: 0 0 1rem;
+}
+
+.experience a {
+	margin: 0 0 .25rem;
 	transition: 0.5s;
+	color: var(--pink-100);
+	font-size: .875rem;
 }
 
 .experience span {
@@ -9,5 +15,4 @@
 
 .experience a:hover {
 	transform: translate(0.75rem);
-	text-shadow: 0 0 0.5rem var(--pink-100);
 }

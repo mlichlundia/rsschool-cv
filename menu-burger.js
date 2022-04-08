@@ -7,6 +7,8 @@ menuPoints.forEach(item => {
 	item.addEventListener("click", closeMenu)
 })
 
+window.matchMedia("(min-width: 992px)").addEventListener('change', () => list.classList.toggle("menu-open"))
+
 if (window.matchMedia("(min-width: 992px)").matches) {
 	list.classList.add("menu-open")
 }
