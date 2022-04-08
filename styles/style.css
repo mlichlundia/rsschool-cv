@@ -7,7 +7,7 @@ html {
 	--gray-100: #b8a8ab;
 	--pink-100: #fbd4db;
 	--dark-800: #75666a;
-	--dark-900: #1d1c1c;
+	--dark-900: #161515;
 
 	scroll-behavior: smooth;
 
@@ -61,22 +61,31 @@ svg {
 
 header {
 	position: absolute;
-	top: 0.5rem;
-	left: 0.875rem;
+	top: 1rem;
+	left: 50%;
+	transform: translate(-50%);
 	color: var(--gray-100);
+	display: flex;
 }
 
 header > :first-child {
 	color: var(--dark-800);
+	margin: 0 .5rem 0 0;
 }
 
 aside {
-	display: none;
+	position: absolute;
+	top: 1rem;
+	left: 0.875rem;
+}
+
+aside li {
+	margin: 0 0 .25rem;
 }
 
 main {
 	font-family: "Poppins", "Arial", Arial, sans-serif;
-	margin: 6rem 0 0;
+	margin: 3rem 0 0;
 }
 
 section {
@@ -105,6 +114,9 @@ h1 {
 h2 {
 	font-size: 1.125rem;
 	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: .125rem;
+	line-height: 120%;
 }
 p {
 	font-size: 0.75rem;
@@ -134,6 +146,24 @@ body::-webkit-scrollbar-corner {
 	body {
 		padding: 1.5rem 6rem;
 	}
+
+	header {
+		position: absolute;
+		top: 1rem;
+		left: 4rem;
+		display: block;
+		transform: translate(0);
+	}
+
+	aside {
+		position: sticky;
+		top: 1.5rem;
+		margin: 0 0 0 -5rem;
+	}
+
+	main {
+		margin: 0;
+	}
 }
 
 @media screen and (min-width: 768px) {
@@ -152,13 +182,13 @@ body::-webkit-scrollbar-corner {
 
 	body {
 		padding: 0 15.25rem;
-		overflow: hidden;
 	}
 
 	header {
 		position: fixed;
 		top: 3rem;
 		left: 3rem;
+		display: block;
 	}
 
 	main {
@@ -177,15 +207,17 @@ body::-webkit-scrollbar-corner {
 		transform: translate(0, -50%);
 		display: flex;
 		flex-direction: column;
+		margin: 0;
 	}
-	aside a {
+
+	aside li {
 		margin: 0 0 2rem;
 		border-radius: 50%;
 		line-height: 0%;
 		transition: 0.5s;
 	}
 
-	aside a:hover {
+	aside li:hover {
 		box-shadow: 0px 0px 0.75rem var(--pink-100);
 	}
 
